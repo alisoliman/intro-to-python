@@ -7,15 +7,15 @@ def draw_square(some_turtle):
 
 def draw_art():
     window = turtle.Screen()
-    window.bgcolor("red")
+    window.bgcolor("white")
 
     brad = turtle.Turtle()
     brad.shape("turtle")
-    brad.color("yellow")
-    brad.speed(2)
-    for i in range(1,37):
+    brad.color("blue")
+    brad.speed(20)
+    for i in range(1,74):
         draw_square(brad)
-        brad.right(10)
+        brad.right(6)
 
     # angie = turtle.Turtle();
     # angie.shape("arrow")
